@@ -44,8 +44,9 @@
                         <a class="nav-link  fs-5" href="#">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  fs-5" href="#">Contact</a>
+                        <a class="nav-link btn-contact fs-5" href="#">Contact</a>
                     </li>
+
                 </ul>
             </div>
         </div>
@@ -148,8 +149,8 @@
         </div>
     </div>
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.6); margin-bottom: 0;">
-        © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        © 2024 Copyright:
+        <a class="text-white" href="#">DataDoctor.com</a>
     </div>
 </footer>
 
