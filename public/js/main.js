@@ -33,8 +33,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                entry.target.classList.add('appear'); // Add your animation class
-                observer.unobserve(entry.target); // Stop observing after it appears
+                entry.target.classList.add('appear'); 
+                observer.unobserve(entry.target);
             }
         });
     }, options);
@@ -44,6 +44,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     window.addEventListener('scroll', handleScroll);
-    handleScroll();  // Check if the section is already in view on page load
+    handleScroll();  
 });
 
