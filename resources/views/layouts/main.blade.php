@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>@yield('title')</title>
     
     <link rel="stylesheet" href={{asset('../css/main.css')}}>
@@ -11,24 +12,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
-
+    
 </head>
 <body>
 <header>
     <nav class="navbar navbar-expand-lg "> 
         <div class="container">
-            <!-- Logo Section -->
-            <a class="navbar-brand" href="#">
+
+        <a class="navbar-brand" href="#">
                 <img src="{{ asset('../images/logo.png') }}" alt="Logo" width="120" class="img-fluid"> <!-- Fluid image for responsive sizing -->
             </a>
 
-            <!-- Toggler for Mobile View -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <!-- Menu Items -->
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -155,7 +153,9 @@
 </footer>
 
 
-
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{{ asset('../js/main.js') }}"></script> 
   
 </body>
 </html>

@@ -1,0 +1,176 @@
+.hero-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.hero-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    color: #000000;
+    font-weight: 500;
+}
+
+.hero-section .btn {
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+}
+
+
+
+.img-fluid {
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px;
+    animation: moveImage 10s linear infinite; /* Add this line for image animation */
+}
+
+
+/* Simple animations for text appearance */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-section h1,
+.hero-section p {
+    animation: fadeInUp 1s ease forwards;
+    opacity: 0;
+}
+
+.hero-section h1 {
+    animation-delay: 0.2s;
+}
+
+.hero-section p {
+    animation-delay: 0.4s;
+}
+
+/* Stats */
+.stats-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #e3efff;
+    border-radius: 30% 0;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.stat {
+    text-align: center;
+    margin: 0 10px;
+    flex: 1 1 150px; /* Allow items to grow and shrink */
+}
+
+.stat-number {
+    font-size: 2rem; /* Adjusted size for larger screens */
+    font-weight: bold;
+    color: #007bff; /* Primary color for numbers */
+    transition: color 0.5s;
+}
+
+.stats-section p {
+    font-size: 0.9rem; /* Font size for the labels */
+    color: #000000;
+}
+
+.sym {
+    font-size: 2rem; /* Font size for symbols */
+    font-weight: bold;
+    color: #007bff; /* Primary color for symbols */
+}
+
+.divider {
+    font-size: 2rem; /* Keeping the divider size consistent */
+    color: #ff0000;
+    margin: 0 15px;
+    transform: rotate(0deg); /* Rotate the divider */
+    display: inline-block; /* Ensure it behaves as an inline element */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section p{
+        font-size: 1rem;
+    }
+    .stat-number {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+
+    .stats-section p {
+        font-size: 0.8rem; /* Adjust label size for mobile */
+        color: #ff0000;
+    }
+
+    .divider {
+        display: none;    }
+
+    .sym {
+        font-size: 1.5rem; /* Smaller size for symbols */
+    }
+}
+
+@media (max-width: 480px) {
+    .stat {
+        margin:10px 0; /* Vertical margin for stacking */
+    }
+
+    .divider {
+        display: none;
+
+    }
+}
+
+
+/* Image motion animation */
+@keyframes moveImage {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px); /* Adjust the value for more or less movement */
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Description */
+.data-doctor-description {
+    background: linear-gradient(to right, #e0f7fa, #bbdefb); /* Light blue gradient background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding for spacing */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-size: 1.1rem; /* Slightly larger font size */
+    color: #000000 !important; /* Darker text color for readability */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+
+
+.data-doctor-description:hover {
+    transform: translateY(-2px); /* Lift effect on hover */
+}

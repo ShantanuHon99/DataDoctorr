@@ -5,5 +5,5 @@
 @section('title', 'DataDoctor')
 
 @section('content')
-    <p>This is the content of the main page.</p>
+    @include('home')
 @endsection
