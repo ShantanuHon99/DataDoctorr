@@ -38,11 +38,10 @@
     max-width: 80%;
     height: auto;
     border-radius: 15px;
-    animation: moveImage 10s linear infinite; /* Add this line for image animation */
+    animation: moveImage 10s linear infinite;
 }
 
 
-/* Simple animations for text appearance */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -68,7 +67,6 @@
     animation-delay: 0.4s;
 }
 
-/* Stats */
 .stats-section {
     display: flex;
     justify-content: center;
@@ -76,52 +74,51 @@
     padding: 1rem;
     background-color: #e3efff;
     border-radius: 30% 0;
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    flex-wrap: wrap; 
 }
 
 .stat {
     text-align: center;
     margin: 0 10px;
-    flex: 1 1 150px; /* Allow items to grow and shrink */
+    flex: 1 1 150px; 
 }
 
 .stat-number {
-    font-size: 2rem; /* Adjusted size for larger screens */
+    font-size: 2rem; 
     font-weight: bold;
-    color: #007bff; /* Primary color for numbers */
+    color: #007bff; 
     transition: color 0.5s;
 }
 
 .stats-section p {
-    font-size: 0.9rem; /* Font size for the labels */
+    font-size: 0.9rem; 
     color: #000000;
 }
 
 .sym {
-    font-size: 2rem; /* Font size for symbols */
+    font-size: 2rem; 
     font-weight: bold;
-    color: #007bff; /* Primary color for symbols */
+    color: #007bff;
 }
 
 .divider {
-    font-size: 2rem; /* Keeping the divider size consistent */
+    font-size: 2rem; 
     color: #ff0000;
     margin: 0 15px;
-    transform: rotate(0deg); /* Rotate the divider */
-    display: inline-block; /* Ensure it behaves as an inline element */
+    transform: rotate(0deg); 
+    display: inline-block; 
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
     .hero-section p{
         font-size: 1rem;
     }
     .stat-number {
-        font-size: 1.5rem; /* Smaller font size for mobile */
+        font-size: 1.5rem;
     }
 
     .stats-section p {
-        font-size: 0.8rem; /* Adjust label size for mobile */
+        font-size: 0.8rem; 
         color: #ff0000;
     }
 
@@ -129,13 +126,13 @@
         display: none;    }
 
     .sym {
-        font-size: 1.5rem; /* Smaller size for symbols */
+        font-size: 1.5rem; 
     }
 }
 
 @media (max-width: 480px) {
     .stat {
-        margin:10px 0; /* Vertical margin for stacking */
+        margin:10px 0; 
     }
 
     .divider {
@@ -145,32 +142,30 @@
 }
 
 
-/* Image motion animation */
 @keyframes moveImage {
     0% {
         transform: translateX(0);
     }
     50% {
-        transform: translateX(10px); /* Adjust the value for more or less movement */
+        transform: translateX(10px); 
     }
     100% {
         transform: translateX(0);
     }
 }
 
-/* Description */
 .data-doctor-description {
-    background: linear-gradient(to right, #e0f7fa, #bbdefb); /* Light blue gradient background */
-    border-radius: 10px; /* Rounded corners */
-    padding: 20px; /* Padding for spacing */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    font-size: 1.1rem; /* Slightly larger font size */
-    color: #000000 !important; /* Darker text color for readability */
-    transition: transform 0.3s; /* Smooth hover effect */
+    background: linear-gradient(to right, #e0f7fa, #bbdefb); 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    font-size: 1.1rem; 
+    color: #000000 !important; 
+    transition: transform 0.3s; 
 }
 
 
 
 .data-doctor-description:hover {
-    transform: translateY(-2px); /* Lift effect on hover */
+    transform: translateY(-2px); 
 }

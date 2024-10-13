@@ -1,5 +1,3 @@
-<!-- resources/views/index.blade.php -->
-
 @extends('layouts.main')
 
 @section('title', 'DataDoctor')

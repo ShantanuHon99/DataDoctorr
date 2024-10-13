@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const partnerItems = document.querySelectorAll('.partner-companies .col-6, .partner-companies .col-md-3, .partner-companies h2');
     const partnerImages = document.querySelectorAll('.partner-companies img');
 
-    // Function to check if an element is in the viewport
     function isInViewport(el) {
         const rect = el.getBoundingClientRect();
         return (
@@ -14,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
         );
     }
 
-    // Function to handle scroll and add the appear class
     function handleScroll() {
         if (isInViewport(partnerSection)) {
             partnerItems.forEach(item => {
@@ -23,7 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    // Intersection Observer for images
     const options = {
         root: null,
         rootMargin: '0px',

@@ -6,19 +6,18 @@ document.addEventListener("DOMContentLoaded", () => {
             const target = +stat.getAttribute('data-target');
             const count = +stat.innerText;
 
-            // Determine the increment
             let increment;
             if (target > 1000) {
-                increment = target / 200; // Fast for large numbers
+                increment = target / 200; 
             } else {
-                increment = target / 1000000; // Slower for smaller numbers
+                increment = target / 1000000;
             }
 
             if (count < target) {
                 stat.innerText = Math.ceil(count + increment);
-                setTimeout(updateCount, 1); // Adjust the timeout for speed
+                setTimeout(updateCount, 1); 
             } else {
-                stat.innerText = target; // Ensure it ends at the target
+                stat.innerText = target; 
             }
         };
 
