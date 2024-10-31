@@ -6,3 +6,7 @@ Route::get('/', function () {
     return view('index');
 });
 
+
+Route::get('/i', function () {
+    return view('layouts/main');
+});

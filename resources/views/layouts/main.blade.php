@@ -16,39 +16,25 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg "> 
-        <div class="container">
-
-        <a class="navbar-brand" href="#">
-                <img src="{{ asset('../images/logo.png') }}" alt="Logo" width="120" class="img-fluid"> 
-            </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link fw-semibold fs-5 active" aria-current="page" href="#">Home</a> 
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link  fs-5" href="#">About Us</a> 
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link  fs-5" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link  fs-5" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn-contact fs-5" href="#">Contact</a>
-                    </li>
-
-                </ul>
+<div class="div101">
+        <img src="../images/logo.png" alt="Logo" class="logo">
+        <div class="nav101" id="navbar">
+            <div class="menu-toggle" id="menuToggle">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </div>
+            <ul class="navlink101" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
         </div>
-    </nav>
+    </div>
+
+
+
 </header>
 
 
@@ -66,16 +52,16 @@
         <h2 class="mb-4">Our Partners</h2>
         <div class="row justify-content-center">
             <div class="col-6 col-md-3 mb-4">
-                <img src="{{ asset('images/amazon.png') }}" alt="Company 1" class="img-fluid">
+                <img src="{{ asset('images/amazon.png') }}" alt="Company 1" class="img-fluid1">
             </div>
             <div class="col-6 col-md-3 mb-4">
-                <img src="{{ asset('images/google.png') }}" alt="Company 2" class="img-fluid">
+                <img src="{{ asset('images/google.png') }}" alt="Company 2" class="img-fluid1">
             </div>
             <div class="col-6 col-md-3 mb-4">
-                <img src="{{ asset('images/microsoft.png') }}" alt="Company 3" class="img-fluid">
+                <img src="{{ asset('images/microsoft.png') }}" alt="Company 3" class="img-fluid1">
             </div>
             <div class="col-6 col-md-3 mb-4">
-                <img src="{{ asset('images/gs.png') }}" alt="Company 4" class="img-fluid">
+                <img src="{{ asset('images/gs.png') }}" alt="Company 4" class="img-fluid1">
             </div>
         </div>
     </div>

@@ -6,4 +6,6 @@
     @include('home')
     @include('tools')
     @include('demo')
+    @include('testimonial')
+    @include('whyus')
 @endsection
