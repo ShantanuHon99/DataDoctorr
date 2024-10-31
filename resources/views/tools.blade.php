@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <div id="services"></div>
     <div class="tool-container">
         <h3>FOR INDIVIDUAL USERS</h3>
         <h1>Data Recovery Tools</h1>

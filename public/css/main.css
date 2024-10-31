@@ -4,14 +4,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, #005fe3 80%);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, #129de8 80%);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease;
 }
 .logo {
   max-width: 130px;
   height: auto; /* Adjust as necessary */
-  filter: brightness(0.5) saturate(5) ; /* Increase saturation and reduce brightness */
+  filter: brightness(.8) saturate(2) ; /* Increase saturation and reduce brightness */
 }
 
 
@@ -33,7 +33,7 @@
 .navlink101 a {
   color: #ffffff; /* Primary link color */
   text-decoration: none;
-  font-size: large;
+  font-size: larger;
   font-weight: lighter;
   padding: 5px 10px;
   position: relative; /* Required for positioning the ::after element */
@@ -53,10 +53,10 @@
 }
 
 .navlink101 a:hover {
-  color: white; /* Color on hover */
+  color: black; /* Color on hover */
   font-weight: 600;
   transform: scale(1.1); /* Scale effect on hover */
-  background-color: rgba(0, 95, 227, 0.7); /* Background on hover */
+  background-color: rgba(255, 255, 255, 0.5); /* Transparent white background on hover */
   border-radius: 5px; /* Rounded corners */
 }
 
@@ -87,7 +87,7 @@
       position: absolute;
       top: 60px;
       right: 0;
-      background-color: rgba(0, 95, 227, 0.9); /* Background color for mobile menu */
+      background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, #129de8 80%);
       width: 100%;
       z-index: 10;
       padding: 10px 0;
@@ -98,6 +98,11 @@
       margin: 10px 0;
       text-align: center;
   }
+  .navlink101 li a{
+    color: #000000;
+    font-weight: 600;
+  } 
+
 
   .menu-toggle {
       display: flex;
@@ -172,7 +177,7 @@
 
 
 /* Footer Styling */
-.footer {
+/* .footer {
     background: linear-gradient(90deg, #0084f2 0%, #0084f2 100%);
     padding: 2rem 0;
 }
@@ -220,4 +225,4 @@
 
 .footer .table td:last-child {
     text-align: center;
-}
+} */

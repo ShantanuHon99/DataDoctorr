@@ -268,16 +268,18 @@ p.service_text{
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="item1"> 
-                    <span class="icon feature_box_col_two"><img src="../images/trust.png" alt=""></span>
-                    <h6>Trusted Solution</h6>
-                    <p>With thousands of satisfied customers, our software is recognized as a reliable choice for data recovery, ensuring your peace of mind.</p>
-                </div>
-            </div>
+    <div class="item1"> 
+        <span class="icon feature_box_col_two"><img src="../images/Saving.png" alt=""></span>
+        <h6>Affordable Solution</h6>
+        <p>Experience top-notch data recovery software at an unbeatable price of only 1500/-. Get the best value for your money without compromising on quality!</p>
+        <p class="price" style="font-weight: bold; color: #28a745;">Only 1500/-</p>
+    </div>
+</div>
+
             <div class="col-lg-4 col-sm-6">
                 <div class="item1"> 
                     <span class="icon feature_box_col_three"><img src="../images/customer_service.png" alt=""></span>
-                    <h6>24 x 7 Support</h6>
+                    <h6>Customer Support</h6>
                     <p>Our dedicated support team is available around the clock to assist you with any queries, ensuring a smooth recovery process.</p>
                 </div>
             </div>
