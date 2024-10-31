@@ -60,26 +60,27 @@
     </div>
 
 <!-- Partner Company -->
- <!-- Partnered Companies Section -->
- <section class="partner-companies ">
+<!-- Partnered Companies Section -->
+<section class="partner-companies">
     <div class="container text-center">
         <h2 class="mb-4">Our Partners</h2>
         <div class="row justify-content-center">
             <div class="col-6 col-md-3 mb-4">
-                <img src="{{ asset('../images/amazon.png') }}" alt="Company 1" class="img-fluid">
+                <img src="{{ asset('images/amazon.png') }}" alt="Company 1" class="img-fluid">
             </div>
             <div class="col-6 col-md-3 mb-4">
-                <img src="{{ asset('../images/google.png') }}" alt="Company 2" class="img-fluid">
+                <img src="{{ asset('images/google.png') }}" alt="Company 2" class="img-fluid">
             </div>
             <div class="col-6 col-md-3 mb-4">
-                <img src="{{ asset('../images/microsoft.png') }}" alt="Company 3" class="img-fluid">
+                <img src="{{ asset('images/microsoft.png') }}" alt="Company 3" class="img-fluid">
             </div>
             <div class="col-6 col-md-3 mb-4">
-                <img src="{{ asset('../images/gs.png') }}" alt="Company 4" class="img-fluid">
+                <img src="{{ asset('images/gs.png') }}" alt="Company 4" class="img-fluid">
             </div>
         </div>
     </div>
 </section>
+
 
 
 

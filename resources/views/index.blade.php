@@ -4,4 +4,6 @@
 
 @section('content')
     @include('home')
+    @include('tools')
+    @include('demo')
 @endsection

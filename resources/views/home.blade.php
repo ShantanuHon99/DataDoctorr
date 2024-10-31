@@ -10,10 +10,10 @@
             <div class="col-md-6">
                 <h4 class="text-primary">WELCOME TO DATA DOCTOR</h4>
                 <h1 class="hero-heading">We Provide <span class="text-primary">Data Recovery</span> & <span class="text-danger">File Restoration</span></h1>
-                <p class="mt-3 data-doctor-description">
+                <!-- <p class="mt-3 data-doctor-description">
                    <span class="text-primary">Data Doctor</span> is an advanced data recovery solution designed to effectively restore lost or deleted files from any Windows device. 
                     With its user-friendly interface and powerful algorithms, Data Doctor ensures that your important files are recovered quickly and efficiently.
-                </p>
+                </p> -->
 
                 <div class="stats-section">
                     <div class="stat">

@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const partnerItems = document.querySelectorAll('.partner-companies .col-6, .partner-companies .col-md-3, .partner-companies h2');
     const partnerImages = document.querySelectorAll('.partner-companies img');
 
+    // Function to check if an element is in the viewport
     function isInViewport(el) {
         const rect = el.getBoundingClientRect();
         return (
@@ -13,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         );
     }
 
+    // Function to handle scroll events
     function handleScroll() {
         if (isInViewport(partnerSection)) {
             partnerItems.forEach(item => {
@@ -21,26 +23,34 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    // Intersection Observer options
     const options = {
         root: null,
         rootMargin: '0px',
         threshold: 0.1
     };
 
+    // Create Intersection Observer instance
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                entry.target.classList.add('appear'); 
+                // Add 'appear' class to all partner items when the section is in view
+                partnerItems.forEach(item => {
+                    item.classList.add('appear');
+                });
+                // Stop observing since we only want to animate once
                 observer.unobserve(entry.target);
             }
         });
     }, options);
 
+    // Observe all partner images
     partnerImages.forEach(image => {
         observer.observe(image);
     });
 
+    // Attach scroll event listener
     window.addEventListener('scroll', handleScroll);
-    handleScroll();  
+    // Initial check in case the section is already in view
+    handleScroll();
 });
-

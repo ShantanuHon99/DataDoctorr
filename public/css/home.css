@@ -2,7 +2,7 @@
     padding: 60px 0;
     background-color: #f9f9f9;
     overflow: hidden;
-    background-color: #fff;
+    background-image:url(../images/bg1.png);
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -21,7 +21,7 @@
 }
 
 .hero-section p {
-    font-size: 1.2rem;
+    font-size: 0.5rem;
     color: #000000;
     font-weight: 500;
 }
@@ -74,7 +74,7 @@
     padding: 1rem;
     background-color: #e3efff;
     border-radius: 30% 0;
-    flex-wrap: wrap; 
+    
 }
 
 .stat {
@@ -84,7 +84,7 @@
 }
 
 .stat-number {
-    font-size: 2rem; 
+    font-size: 1.5rem; 
     font-weight: bold;
     color: #007bff; 
     transition: color 0.5s;
@@ -110,62 +110,62 @@
 }
 
 @media (max-width: 768px) {
-    .hero-section p{
+    .hero-section p {
         font-size: 1rem;
     }
     .stat-number {
         font-size: 1.5rem;
     }
-
+    .stats-section {
+        display: flex;
+        flex-direction: row;
+        gap: 10px; /* Adjust gap between stat items */
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap; 
+    }
     .stats-section p {
-        font-size: 0.8rem; 
+        font-size: 0.9rem; /* Reduced font size */
         color: #ff0000;
     }
-
     .divider {
-        display: none;    }
-
+        display: none;
+    }
     .sym {
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
+    }
+    .img-fluid {
+        display: none;
+    }
+    .data-doctor-description {
+        display: none;
+    }
+    .hero-section h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
     }
 }
 
 @media (max-width: 480px) {
     .stat {
-        margin:10px 0; 
+        margin: 10px 0;
     }
-
+    .stats-section {
+        display: flex;
+        flex-direction: row;
+        gap: 5px; /* Adjust gap between stat items */
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap; 
+    }
+    .stats-section p {
+        font-size: 0.9rem; /* Reduced further for very small screens */
+    }
     .divider {
         display: none;
-
     }
-}
-
-
-@keyframes moveImage {
-    0% {
-        transform: translateX(0);
+    .data-doctor-description {
+        display: none;
     }
-    50% {
-        transform: translateX(10px); 
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
-
-.data-doctor-description {
-    background: linear-gradient(to right, #e0f7fa, #bbdefb); 
-    border-radius: 10px; 
-    padding: 20px; 
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
-    font-size: 1.1rem; 
-    color: #000000 !important; 
-    transition: transform 0.3s; 
-}
-
-
-
-.data-doctor-description:hover {
-    transform: translateY(-2px); 
 }

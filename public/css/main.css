@@ -1,7 +1,7 @@
 /* Header Styling */
 
 .navbar {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, #0084f2 80%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, #005fe3 80%);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     padding: 10px 30px;
@@ -127,63 +127,53 @@
 
 
 /* Partnered Companies */
+
+/* Partnered Companies Section */
 .partner-companies {
     background-color: #ffffff;
     font-family: 'Montserrat', sans-serif;
+    padding: 20px 0; /* Added padding for spacing */
 }
 
 .partner-companies h2 {
     color: #000000;
     font-size: 2rem;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-}
-
-.partner-companies .col-6, .partner-companies .col-md-3 {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    margin-bottom: 1.5rem; /* Adjusted margin for spacing */
 }
 
 .partner-companies img {
-    max-width: 60%;
-    height: auto;
-    transition: transform 0.3s, opacity 0.5s ease-in-out; /* Adjusted to include opacity */
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 150px; /* Set a max height to control image size */
+    object-fit: contain; /* Ensure the entire image fits within the bounds */
 }
 
-.partner-companies img:hover {
-    transform: scale(1.1);
-}
-
+/* Responsive styles */
 @media (max-width: 991.98px) {
     .partner-companies .row {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center; /* Center items in mobile view */
     }
 
     .partner-companies .col-6 {
-        flex: 0 0 50%;
+        flex: 0 0 50%; /* Each item occupies 50% of the width on mobile */
+        max-width: 50%; /* Max width for each item */
+        padding: 10px; /* Added padding for spacing around items */
     }
 }
 
 @media (min-width: 992px) {
     .partner-companies .row {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: nowrap; /* Items in a single row on desktop */
     }
 
     .partner-companies .col-md-3 {
-        flex: 0 0 25%;
+        flex: 0 0 25%; /* Each item occupies 25% of the width on desktop */
+        max-width: 25%; /* Max width for each item */
     }
 }
-
-.appear {
-    opacity: 1 !important;
-    transform: translateY(0) !important;
-}
-
 
 
 /* Footer Styling */
