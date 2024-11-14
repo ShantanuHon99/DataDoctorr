@@ -272,7 +272,7 @@ p.service_text{
         <span class="icon feature_box_col_two"><img src="../images/Saving.png" alt=""></span>
         <h6>Affordable Solution</h6>
         <p>Experience top-notch data recovery software at an unbeatable price of only 1500/-. Get the best value for your money without compromising on quality!</p>
-        <p class="price" style="font-weight: bold; color: #28a745;">Only 1500/-</p>
+        <h2 class="price" style="font-weight: bold; color: #28a745;">Only 1500/-</h2>
     </div>
 </div>
 

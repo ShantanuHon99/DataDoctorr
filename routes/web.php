@@ -7,6 +7,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('/i', function () {
-    return view('layouts/main');
+Route::get('/video', function () {
+    return view('video');
 });
