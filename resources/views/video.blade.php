@@ -50,12 +50,18 @@
 <div class="video-gallery">
     <!-- Video 1 -->
     <div class="video-item">
-        <div class="video-thumbnail" style="background-image: url('https://via.placeholder.com/320x180');"></div>
-        <div class="video-content">
-            <h3 class="video-title">Video Title 1</h3>
-            <p class="video-description">This is a sample description of the video. It provides a brief overview of the content.</p>
-        </div>
+    <div class="video-thumbnail">
+        <video width="320" height="240" controls style="width:100%; height:auto;">
+            <source src="../images/Data.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
+    <div class="video-content">
+        <h3 class="video-title">Video Title 1</h3>
+        <p class="video-description">This is a sample description of the video. It provides a brief overview of the content.</p>
+    </div>
+</div>
+
     <!-- Video 2 -->
     <div class="video-item">
         <div class="video-thumbnail" style="background-image: url('https://via.placeholder.com/320x180');"></div>
