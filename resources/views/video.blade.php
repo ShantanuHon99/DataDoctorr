@@ -45,39 +45,25 @@
 
 
 <!-- Main Content -->
-<h1 style="text-align: center; margin-top: 20px;">Responsive Video Gallery</h1>
+<h1 style="text-align: center; margin-top: 20px;">Tutorial Video</h1>
 
 <div class="video-gallery">
     <!-- Video 1 -->
     <div class="video-item">
     <div class="video-thumbnail">
-        <video width="320" height="240" controls style="width:100%; height:auto;">
+        <video width="320" height="240" controls style="width:100%; height:auto; padding:20px">
             <source src="../images/Data.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
     <div class="video-content">
-        <h3 class="video-title">Video Title 1</h3>
-        <p class="video-description">This is a sample description of the video. It provides a brief overview of the content.</p>
+        <h3 class="video-title">Steps To Recover Data using DataDoctor</h3>
+        <p class="video-description">Data recovery can feel overwhelming, but with DataDoctor, it's a simple and straightforward process. In this video, we walk you through each step, from identifying the problem to successfully recovering your precious files. Whether it's lost documents, photos, videos, or more, you'll learn how to use DataDoctor's powerful tools to bring your data back to life. Perfect for beginners and tech-savvy users alike, this guide will ensure you're prepared for any data loss scenario.</p>
     </div>
 </div>
 
     <!-- Video 2 -->
-    <div class="video-item">
-        <div class="video-thumbnail" style="background-image: url('https://via.placeholder.com/320x180');"></div>
-        <div class="video-content">
-            <h3 class="video-title">Video Title 2</h3>
-            <p class="video-description">Another description here, giving some insight into the content of the video in an appealing way.</p>
-        </div>
-    </div>
-    <!-- Video 3 -->
-    <div class="video-item">
-        <div class="video-thumbnail" style="background-image: url('https://via.placeholder.com/320x180');"></div>
-        <div class="video-content">
-            <h3 class="video-title">Video Title 3</h3>
-            <p class="video-description">This description gives a quick preview of the video's topic and keeps it engaging.</p>
-        </div>
-    </div>
+    
     <!-- Add more videos here as needed -->
 </div>
 

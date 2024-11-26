@@ -71,3 +71,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+
+    // Show or hide the button based on scroll position
+    window.onscroll = function () {
+        const scrollBtn = document.getElementById("scrollToTopBtn");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            scrollBtn.style.display = "flex"; // Show the button
+        } else {
+            scrollBtn.style.display = "none"; // Hide the button
+        }
+    };
+
+    // Scroll to the top of the page when the button is clicked
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }

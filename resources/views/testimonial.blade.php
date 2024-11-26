@@ -22,7 +22,7 @@
     <figure class="snip1390 hover">
         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample5.jpg" alt="profile-sample5" class="profile" />
         <figcaption>
-            <h3 style="color: white;">Gordon Norman</h3>
+            <h3 style="color: white;">Kaushal Jare</h3>
             <!-- <h5 style="color: #a6a6a6;">Accountant</h5> -->
             <blockquote>Wormwood : Calvin, how about you? Calvin : Hard to say ma'am. I think my cerebellum has just fused.</blockquote>
         </figcaption>

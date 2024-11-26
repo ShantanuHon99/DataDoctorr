@@ -41,9 +41,13 @@
                                         <p class="text-center">Far far away, behind the word mountains, far from the
                                             countries Vokalia and Consonantia, there live the blind texts.</p>
                                         <div class="d-flex align-items-center mt-4">
-                                            <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
-                                                        class="ion-ios-arrow-round-forward"></span></a></p>
-                                        </div>
+    <p class="mb-0">
+        <a href="/video" class="btn btn-primary">
+            Watch tutorial <span class="ion-ios-arrow-round-forward"></span>
+        </a>
+    </p>
+</div>
+
                                     </div>
                                 </div>
                             </div>
@@ -61,9 +65,13 @@
                                         <p class="text-center">Far far away, behind the word mountains, far from the
                                             countries Vokalia and Consonantia, there live the blind texts.</p>
                                         <div class="d-flex align-items-center mt-4">
-                                            <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
-                                                        class="ion-ios-arrow-round-forward"></span></a></p>
-                                        </div>
+    <p class="mb-0">
+        <a href="/video" class="btn btn-primary">
+            Watch tutorial <span class="ion-ios-arrow-round-forward"></span>
+        </a>
+    </p>
+</div>
+
                                     </div>
                                 </div>
                             </div>
@@ -80,9 +88,13 @@
                                         <p class="text-center">Far far away, behind the word mountains, far from the
                                             countries Vokalia and Consonantia, there live the blind texts.</p>
                                         <div class="d-flex align-items-center mt-4">
-                                            <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
-                                                        class="ion-ios-arrow-round-forward"></span></a></p>
-                                        </div>
+    <p class="mb-0">
+        <a href="/video" class="btn btn-primary">
+            Watch tutorial <span class="ion-ios-arrow-round-forward"></span>
+        </a>
+    </p>
+</div>
+
                                     </div>
                                 </div>
                             </div>
@@ -99,9 +111,13 @@
                                         <p class="text-center">Far far away, behind the word mountains, far from the
                                             countries Vokalia and Consonantia, there live the blind texts.</p>
                                         <div class="d-flex align-items-center mt-4">
-                                            <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
-                                                        class="ion-ios-arrow-round-forward"></span></a></p>
-                                        </div>
+    <p class="mb-0">
+        <a href="/video" class="btn btn-primary">
+            Watch tutorial <span class="ion-ios-arrow-round-forward"></span>
+        </a>
+    </p>
+</div>
+
                                     </div>
                                 </div>
                             </div>
@@ -118,9 +134,13 @@
                                         <p class="text-center">Far far away, behind the word mountains, far from the
                                             countries Vokalia and Consonantia, there live the blind texts.</p>
                                         <div class="d-flex align-items-center mt-4">
-                                            <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
-                                                        class="ion-ios-arrow-round-forward"></span></a></p>
-                                        </div>
+    <p class="mb-0">
+        <a href="/video" class="btn btn-primary">
+            Watch tutorial <span class="ion-ios-arrow-round-forward"></span>
+        </a>
+    </p>
+</div>
+
                                     </div>
                                 </div>
                             </div>
@@ -137,9 +157,13 @@
                                         <p class="text-center">Far far away, behind the word mountains, far from the
                                             countries Vokalia and Consonantia, there live the blind texts.</p>
                                         <div class="d-flex align-items-center mt-4">
-                                            <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
-                                                        class="ion-ios-arrow-round-forward"></span></a></p>
-                                        </div>
+    <p class="mb-0">
+        <a href="/video" class="btn btn-primary">
+            Watch tutorial <span class="ion-ios-arrow-round-forward"></span>
+        </a>
+    </p>
+</div>
+
                                     </div>
                                 </div>
                             </div>
@@ -156,9 +180,13 @@
                                         <p class="text-center">Far far away, behind the word mountains, far from the
                                             countries Vokalia and Consonantia, there live the blind texts.</p>
                                         <div class="d-flex align-items-center mt-4">
-                                            <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
-                                                        class="ion-ios-arrow-round-forward"></span></a></p>
-                                        </div>
+    <p class="mb-0">
+        <a href="/video" class="btn btn-primary">
+            Watch tutorial <span class="ion-ios-arrow-round-forward"></span>
+        </a>
+    </p>
+</div>
+
                                     </div>
                                 </div>
                             </div>
