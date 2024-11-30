@@ -3,14 +3,13 @@
 </head>
 
 <div class="testimonial-container">
-    <figure class="snip1390">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample3.jpg" alt="profile-sample3" class="profile" />
-        <figcaption>
-            <h3 style="color: white;">Eleanor Crisp</h3>
-            <!-- <h5 style="color: #a6a6a6;">UX Design</h5> -->
-            <blockquote>Dad buried in landslide! Jubilant throngs fill streets! Stunned father inconsolable - demands recount!</blockquote>
-        </figcaption>
-        <div class="star-rating">
+<figure class="snip1390">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2TgOv9CMmsUzYKCcLGWPvqcpUk6HXp2mnww&s" alt="profile-sample3" class="profile" />
+    <figcaption>
+        <h3 style="color: white;">Ratan Petkar</h3>
+        <blockquote>“Using this service has been an absolute game-changer! The attention to detail and professionalism were top-notch. Highly recommended for anyone looking for quality and reliability!”</blockquote>
+    </figcaption>
+    <div class="star-rating">
         <span class="star filled">★</span>
         <span class="star filled">★</span>
         <span class="star filled">★</span>
@@ -18,15 +17,15 @@
         <span class="star">☆</span>
     </div>
     <p style="color:white;">4.5 Star Rating</p>
-    </figure>
-    <figure class="snip1390 hover">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample5.jpg" alt="profile-sample5" class="profile" />
-        <figcaption>
-            <h3 style="color: white;">Kaushal Jare</h3>
-            <!-- <h5 style="color: #a6a6a6;">Accountant</h5> -->
-            <blockquote>Wormwood : Calvin, how about you? Calvin : Hard to say ma'am. I think my cerebellum has just fused.</blockquote>
-        </figcaption>
-        <div class="star-rating">
+</figure>
+
+<figure class="snip1390 hover">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2TgOv9CMmsUzYKCcLGWPvqcpUk6HXp2mnww&s" alt="profile-sample5" class="profile" />
+    <figcaption>
+        <h3 style="color: white;">Sahil J. Nimse</h3>
+        <blockquote>“Absolutely outstanding! The service exceeded all my expectations, and I couldn't be happier with the results. Flawless experience from start to finish.”</blockquote>
+    </figcaption>
+    <div class="star-rating">
         <span class="star filled">★</span>
         <span class="star filled">★</span>
         <span class="star filled">★</span>
@@ -34,15 +33,15 @@
         <span class="star filled">★</span>
     </div>
     <p style="color:white;">5 Star Rating</p>
-    </figure>
-    <figure class="snip1390">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample6.jpg" alt="profile-sample6" class="profile" />
-        <figcaption>
-            <h3 style="color: white;">Sue Shei</h3>
-            <!-- <h5 style="color: #a6a6a6;">Public Relations</h5> -->
-            <blockquote>The strength to change what I can, the inability to accept what I can't and the incapacity to tell the difference.</blockquote>
-        </figcaption>
-        <div class="star-rating">
+</figure>
+
+<figure class="snip1390">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2TgOv9CMmsUzYKCcLGWPvqcpUk6HXp2mnww&s" alt="profile-sample6" class="profile" />
+    <figcaption>
+        <h3 style="color: white;">Rutuja Shelke</h3>
+        <blockquote>“A solid experience overall. Great support and a user-friendly process. There's a bit of room for improvement, but I'm definitely satisfied with the outcome.”</blockquote>
+    </figcaption>
+    <div class="star-rating">
         <span class="star filled">★</span>
         <span class="star filled">★</span>
         <span class="star filled">★</span>
@@ -50,5 +49,6 @@
         <span class="star">☆</span>
     </div>
     <p style="color:white;">4 Star Rating</p>
-    </figure>
+</figure>
+
 </div>
