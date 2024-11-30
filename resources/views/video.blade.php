@@ -172,13 +172,20 @@
                 <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                     <h5 class="text-uppercase mb-4">Opening Hours</h5>
                     <table class="table text-white text-center" style="margin: auto;">
-                        <tbody>
-                            <tr>
-                                <td>Monday - Sunday:</td>
-                                <td>9:00am - 7:00pm</td>
-                            </tr>
-                        </tbody>
-                    </table>
+    <tbody>
+        <tr>
+            <td>Monday - Sunday:</td>
+            <td>9:00am - 7:00pm</td>
+        </tr>
+    </tbody>
+</table>
+<h5 class="text-uppercase mb-4" style="margin-top: 10px">Location</h5>
+
+<!-- Google Map Embed Without API Key -->
+<div class="map-container mb-4">
+<iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=smart+computers+Rahata&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+</div>
+
                 </div>
             </div>
         </div>

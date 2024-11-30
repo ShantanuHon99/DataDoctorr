@@ -83,7 +83,7 @@
 
     <!-- Footer -->
 <div id="contact"></div>     
-    <footer class="footer text-white text-center text-lg-start"
+<footer class="footer text-white text-center text-lg-start"
         style="margin: 0; padding: 2rem 0; position: relative; background-color: #00abe3;">
         <div class="container p-4">
             <div class="row mt-4">
@@ -120,31 +120,33 @@
                     </div>
 
                     <div class="d-flex align-items-start mb-3" style="justify-content: flex-start;">
-                        <a href="mailto:smartcomputersrahata@gmail.com" style="text-decoration: none; color: inherit;">
-                            <i class='bx bx-envelope' style="font-size: 1.5rem; margin-right: 10px;"></i>
-                            <span>smartcomputersrahata@gmail.com</span>
-                        </a>
+                        <i class='bx bx-envelope' style="font-size: 1.5rem; margin-right: 10px;"></i>
+                        <span>smartcomputersrahata@gmail.com</span>
                     </div>
 
                     <div class="d-flex align-items-start mb-3" style="justify-content: flex-start;">
-                        <a href="tel:+917769081078" style="text-decoration: none; color: inherit;">
-                            <i class='bx bx-phone' style="font-size: 1.5rem; margin-right: 10px;"></i>
-                            <span>+91 7769081078 (Satyam Sadaphal)</span>
-                        </a>
+                        <i class='bx bx-phone' style="font-size: 1.5rem; margin-right: 10px;"></i>
+                        <span>+91 7769081078 (Satyam Sadaphal)</span>
                     </div>
-
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                     <h5 class="text-uppercase mb-4">Opening Hours</h5>
                     <table class="table text-white text-center" style="margin: auto;">
-                        <tbody>
-                            <tr>
-                                <td>Monday - Sunday:</td>
-                                <td>9:00am - 7:00pm</td>
-                            </tr>
-                        </tbody>
-                    </table>
+    <tbody>
+        <tr>
+            <td>Monday - Sunday:</td>
+            <td>9:00am - 7:00pm</td>
+        </tr>
+    </tbody>
+</table>
+<h5 class="text-uppercase mb-4" style="margin-top: 10px">Location</h5>
+
+<!-- Google Map Embed Without API Key -->
+<div class="map-container mb-4">
+<iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=smart+computers+Rahata&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+</div>
+
                 </div>
             </div>
         </div>
