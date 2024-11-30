@@ -1,0 +1,175 @@
+.hero-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    background-image:url(../images/tool.jpg);
+
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.hero-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-section p {
+    font-size: 0.5rem;
+    color: #000000;
+    font-weight: 500;
+}
+
+.hero-section .btn {
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+}
+
+
+
+.img-fluid {
+    max-width: 80%;
+    height: auto;
+    margin-left: 20%;
+    border-radius: 15px;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-section h1,
+.hero-section p {
+    animation: fadeInUp 1s ease forwards;
+    opacity: 0;
+}
+
+.hero-section h1 {
+    animation-delay: 0.2s;
+}
+
+.hero-section p {
+    animation-delay: 0.4s;
+}
+
+.stats-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #e3efff;
+    border-radius: 30% 0;
+    
+}
+
+.stat {
+    text-align: center;
+    margin: 0 10px;
+    flex: 1 1 150px; 
+}
+
+.stat-number {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: #007bff; 
+    transition: color 0.5s;
+}
+
+.stats-section p {
+    font-size: 0.9rem; 
+    color: #000000;
+}
+
+.sym {
+    font-size: 2rem; 
+    font-weight: bold;
+    color: #007bff;
+}
+
+.divider {
+    font-size: 2rem; 
+    color: #ff0000;
+    margin: 0 15px;
+    transform: rotate(0deg); 
+    display: inline-block; 
+}
+
+@media (max-width: 768px) {
+    .hero-section p {
+        font-size: 1rem;
+    }
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    .stat-number {
+        font-size: 1.5rem;
+    }
+    .stats-section {
+        display: flex;
+        flex-direction: row;
+        gap: 10px; /* Adjust gap between stat items */
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap; 
+    }
+    .stats-section p {
+        font-size: 0.9rem; /* Reduced font size */
+        color: #ff0000;
+    }
+    .divider {
+        display: none;
+    }
+    .sym {
+        font-size: 1.5rem;
+    }
+    .img-fluid {
+        display: none;
+    }
+    .data-doctor-description {
+        display: none;
+    }
+    .hero-section h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+@media (max-width: 480px) {
+    .stat {
+        margin: 10px 0;
+    }
+    .stats-section {
+        display: flex;
+        flex-direction: row;
+        gap: 5px; /* Adjust gap between stat items */
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap; 
+    }
+    .stats-section p {
+        font-size: 0.9rem; /* Reduced further for very small screens */
+    }
+    .divider {
+        display: none;
+    }
+    .data-doctor-description {
+        display: none;
+    }
+}
