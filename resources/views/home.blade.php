@@ -17,7 +17,7 @@
 
                 <div class="stats-section">
                     <div class="stat">
-                        <span class="stat-number" data-target="10000">0</span><span class="sym">+</span>
+                        <span class="stat-number" data-target="7500">0</span><span class="sym">+</span>
                         <p>Downloads</p>
                     </div>
                     <div class="divider">|</div>
@@ -27,7 +27,7 @@
                     </div>
                     <div class="divider">|</div>
                     <div class="stat">
-                        <span class="stat-number" data-target="40">0</span><span class="sym">+</span>
+                        <span class="stat-number" data-target="10">0</span><span class="sym">+</span>
                         <p>Awards Received</p>
                     </div>
                 </div>

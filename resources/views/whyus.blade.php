@@ -258,7 +258,7 @@ p.service_text{
         <div class="row">
             <div class="section-head col-sm-12">
                 <h4><span>Why Choose</span> Us?</h4>
-                <p>When you choose us, you'll feel the benefit of 10 years' experience in data recovery. We understand the intricacies of data loss and are equipped with advanced tools to restore your valuable information.</p>
+                <p>When you choose us, you'll feel the benefit of 7 years' experience in data recovery. We understand the intricacies of data loss and are equipped with advanced tools to restore your valuable information.</p>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="item1"> 

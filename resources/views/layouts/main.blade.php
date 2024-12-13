@@ -62,16 +62,19 @@
             <h2 class="mb-4">Our Partners</h2>
             <div class="row justify-content-center">
                 <div class="col-6 col-md-3 mb-4">
-                    <img src="{{ asset('images/amazon.png') }}" alt="Company 1" class="img-fluid1">
+                    <img src="<?php echo e(asset('images/smartc.png')); ?>" alt="Company 1" class="img-fluid1">
                 </div>
                 <div class="col-6 col-md-3 mb-4">
-                    <img src="{{ asset('images/google.png') }}" alt="Company 2" class="img-fluid1">
+                    <img src="<?php echo e(asset('images/smart.jpg')); ?>" alt="Company 1" class="img-fluid1">
                 </div>
                 <div class="col-6 col-md-3 mb-4">
-                    <img src="{{ asset('images/microsoft.png') }}" alt="Company 3" class="img-fluid1">
+                    <img src="<?php echo e(asset('images/arogyam.png')); ?>" alt="Company 2" class="img-fluid1">
                 </div>
                 <div class="col-6 col-md-3 mb-4">
-                    <img src="{{ asset('images/gs.png') }}" alt="Company 4" class="img-fluid1">
+                    <img src="<?php echo e(asset('images/anand.png')); ?>" alt="Company 3" class="img-fluid1">
+                </div>
+                <div class="col-6 col-md-3 mb-4">
+                    <img src="<?php echo e(asset('images/shivam.png')); ?>" alt="Company 4" class="img-fluid1">
                 </div>
             </div>
         </div>
@@ -118,13 +121,14 @@
                         <i class='bx bx-map' style="font-size: 1.5rem; margin-right: 10px;"></i>
                         <span>Shop no 11, Saiplaza Complex, near Kundan Petroleum, Rahata, Maharashtra 423107</span>
                     </div>
-
+<!--
                     <div class="d-flex align-items-start mb-3" style="justify-content: flex-start;">
                         <a href="mailto:smartcomputersrahata@gmail.com" style="text-decoration: none; color: inherit;">
                             <i class='bx bx-envelope' style="font-size: 1.5rem; margin-right: 10px;"></i>
                             <span>smartcomputersrahata@gmail.com</span>
                         </a>
                     </div>
+-->
 
                     <div class="d-flex align-items-start mb-3" style="justify-content: flex-start;">
                         <a href="tel:+917769081078" style="text-decoration: none; color: inherit;">

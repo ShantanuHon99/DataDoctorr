@@ -163,10 +163,12 @@
                         <span>Shop no 11, Saiplaza Complex, near Kundan Petroleum, Rahata, Maharashtra 423107</span>
                     </div>
 
+<!--                    
                     <div class="d-flex align-items-start mb-3" style="justify-content: flex-start;">
                         <i class='bx bx-envelope' style="font-size: 1.5rem; margin-right: 10px;"></i>
                         <span>smartcomputersrahata@gmail.com</span>
                     </div>
+-->
 
                     <div class="d-flex align-items-start mb-3" style="justify-content: flex-start;">
                         <i class='bx bx-phone' style="font-size: 1.5rem; margin-right: 10px;"></i>
