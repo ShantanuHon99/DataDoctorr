@@ -61,11 +61,11 @@
             </div>
             <div class="video-content">
                 <h3 class="video-title">Steps To Recover Data using DataDoctor</h3>
-                <p class="video-description">Data recovery can feel overwhelming, but with DataDoctor, it's a simple and
+                <p class="video-description">Data recovery can feel overwhelming, but with DataDoctor, it is a simple and
                     straightforward process. In this video, we walk you through each step, from identifying the problem
-                    to successfully recovering your precious files. Whether it's lost documents, photos, videos, or
-                    more, you'll learn how to use DataDoctor's powerful tools to bring your data back to life. Perfect
-                    for beginners and tech-savvy users alike, this guide will ensure you're prepared for any data loss
+                    to successfully recovering your precious files. Whether it is lost documents, photos, videos, or
+                    more, you will learn how to use DataDoctor is powerful tools to bring your data back to life. Perfect
+                    for beginners and tech-savvy users alike, this guide will ensure you are prepared for any data loss
                     scenario.</p>
             </div>
         </div>
@@ -101,21 +101,26 @@
         <div class="container text-center">
             <h2 class="mb-4">Our Partners</h2>
             <div class="row justify-content-center">
-                <div class="col-6 col-md-3 mb-4">
-                    <img src="{{ asset('images/amazon.png') }}" alt="Company 1" class="img-fluid1">
+            <div class="col-6 col-md-3 mb-4">
+                    <img src="<?php echo e(asset('images/smartc.png')); ?>" alt="Company 1" class="img-fluid1">
+                </div>
+            <div class="col-6 col-md-3 mb-4">
+                    <img src="<?php echo e(asset('images/smart.jpg')); ?>" alt="Company 1" class="img-fluid1">
                 </div>
                 <div class="col-6 col-md-3 mb-4">
-                    <img src="{{ asset('images/google.png') }}" alt="Company 2" class="img-fluid1">
+                    <img src="<?php echo e(asset('images/arogyam.png')); ?>" alt="Company 2" class="img-fluid1">
                 </div>
                 <div class="col-6 col-md-3 mb-4">
-                    <img src="{{ asset('images/microsoft.png') }}" alt="Company 3" class="img-fluid1">
+                    <img src="<?php echo e(asset('images/anand.png')); ?>" alt="Company 3" class="img-fluid1">
                 </div>
                 <div class="col-6 col-md-3 mb-4">
-                    <img src="{{ asset('images/gs.png') }}" alt="Company 4" class="img-fluid1">
+                    <img src="<?php echo e(asset('images/shivam.png')); ?>" alt="Company 4" class="img-fluid1">
                 </div>
             </div>
         </div>
     </section>
+
+
 
 
 
