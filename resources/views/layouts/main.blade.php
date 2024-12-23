@@ -76,6 +76,9 @@
                 <div class="col-6 col-md-3 mb-4">
                     <img src="<?php echo e(asset('images/shivam.png')); ?>" alt="Company 4" class="img-fluid1">
                 </div>
+                <div class="col-6 col-md-3 mb-4">
+                    <img src="<?php echo e(asset('images/kk.png')); ?>" alt="Company 4" class="img-fluid1">
+                </div>
             </div>
         </div>
     </section>
