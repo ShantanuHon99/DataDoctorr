@@ -54,7 +54,7 @@
             <div class="video-thumbnail">
                 <span
                     style="position: absolute; top: 10px; left: 10px; background: rgba(0, 0, 0, 0.7); color: white; padding: 5px 10px; border-radius: 5px; z-index: 10;">English</span>
-                <video width="320" height="240" controls style="width:100%; height:auto; padding:20px">
+                <video width="320" height="240" style="width:100%; height:auto; padding:20px" controls>
                     <source src="../images/Data.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
