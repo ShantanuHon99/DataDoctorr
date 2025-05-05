@@ -78,6 +78,53 @@
         opacity: 1;
     }
 }
+.gradient-heading {
+    font-size: 2.8em;
+    font-weight: 700;
+    background: linear-gradient(to right, #0084f2, #0059ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    position: relative;
+    display: inline-block;
+    animation: fadeInDown 0.8s ease both;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+.gradient-heading::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #0059ff;
+    margin: 12px auto 0 auto;
+    border-radius: 2px;
+    animation: slideIn 1s ease forwards;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+    100% {
+        width: 60px;
+        opacity: 1;
+    }
+}
+
 </style>
 </head>
 
@@ -86,12 +133,12 @@
     <section class="ftco-section" style="background-image:url('{{ asset('images/tool.jpg') }}')">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <h2 class="heading-section mb-5 pb-md-4" style="font-size: 2.5em; background: linear-gradient(to right, #0084f2, #0059ff); 
-               -webkit-background-clip: text; color: transparent;">
-                    Recovery Services Available
-                </h2>
-            </div>
+        <div class="col-md-12 text-center">
+            <h2 class="heading-section gradient-heading mb-5 pb-md-4">
+                Recovery Services Available
+            </h2>
+        </div>
+
 
             <div class="col-md-12">
                 <div class="featured-carousel owl-carousel">
