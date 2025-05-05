@@ -12,212 +12,138 @@
     <link rel="stylesheet" href="<?php echo e(asset('css/owl.theme.default.min.css')); ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
     <link rel="stylesheet" href="<?php echo e(asset('css/demo.css')); ?>">
+    <style>.recovery-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInUp 0.6s ease forwards;
+    opacity: 0;
+}
 
+.recovery-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.gradient-strip-top {
+    height: 10px;
+    background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, #005fe3 80%);
+    border-radius: 10px 10px 0 0;
+}
+
+.service-icon {
+    font-size: 90px;
+    color: black;
+    transition: transform 0.4s ease, color 0.4s ease;
+}
+
+.recovery-card:hover .service-icon {
+    transform: scale(1.1);
+    color: #005fe3;
+}
+
+.service-title {
+    color: #005fe3;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.service-title:hover {
+    color: #002966;
+}
+
+.watch-btn {
+    transition: background 0.3s ease, transform 0.3s ease;
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+
+.watch-btn:hover {
+    transform: translateY(-2px);
+    background: #004dcf;
+}
+
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+</style>
 </head>
 
 <body>
     <div id="">
-        <section class="ftco-section" style="background-image:url('../images/tool.jpg')">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2 class="heading-section mb-5 pb-md-4" style="font-size: 2.5em; background: linear-gradient(to right, #0084f2, #0059ff); 
-               -webkit-background-clip: text; color: transparent;   ">
-                            Recovery Services Available
-                        </h2>
-                    </div>
+    <section class="ftco-section" style="background-image:url('{{ asset('images/tool.jpg') }}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="heading-section mb-5 pb-md-4" style="font-size: 2.5em; background: linear-gradient(to right, #0084f2, #0059ff); 
+               -webkit-background-clip: text; color: transparent;">
+                    Recovery Services Available
+                </h2>
+            </div>
 
-                    <div class="col-md-12">
-                        <div class="featured-carousel owl-carousel">
-                            <div class="item">
-                                <div class="gradient-strip"
-                                    style="height: 10px; background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, #005fe3 80%); border-radius: 10px 10px 0 0; margin-bottom: -1px;">
-                                </div>
-                                <div class="blog-entry"
-                                    style=" border: 1px solid #ddd; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); background-color: #white; margin-bottom: 20px;">
-                                    <div class="text border border-top-0 p-4 d-flex flex-column align-items-center">
-                                        <i class='bx bx-mobile'
-                                            style="font-size: 80px; margin-bottom: 10px; color:black;"></i>
-                                        <!-- Increased size -->
-                                        <h3 class="heading text-center"><a href="/video">Mobile</a></h3>
-                                        <p class="text-center">Recover your important detleted files from your mobile
-                                            phone. </p>
-                                        <div class="d-flex align-items-center mt-4">
-                                            <p class="mb-0">
-                                                <a href="/video" class="btn btn-primary">
-                                                    Watch tutorial <span class="ion-ios-arrow-round-forward"></span>
-                                                </a>
-                                            </p>
-                                        </div>
+            <div class="col-md-12">
+                <div class="featured-carousel owl-carousel">
+                    {{-- START: Recovery Items --}}
+                    @php
+                        $services = [
+                            ['icon' => 'bx bx-mobile', 'title' => 'Mobile', 'desc' => 'Recover your important deleted files from your mobile phone.'],
+                            ['icon' => 'bx bx-laptop', 'title' => 'Laptop', 'desc' => 'Recover all types of files deleted from your laptop.'],
+                            ['icon' => 'bx bx-hdd', 'title' => 'Hard Drive', 'desc' => 'Recovering your data from the Hard Drive is easy with Data Doctor.'],
+                            ['icon' => 'bx bx-memory-card', 'title' => 'Memory Card', 'desc' => 'Recover deleted photos and videos from corrupted Memory Cards.'],
+                            ['icon' => 'bx bx-usb', 'title' => 'USB Data Recovery', 'desc' => 'Pen Drives corrupted? Data Doctor can recover your data.'],
+                            ['icon' => 'bx bx-photo-album', 'title' => 'Photo Recovery', 'desc' => 'Recover all your memories captured in Photos easily.'],
+                            ['icon' => 'bx bxs-videos', 'title' => 'Video Recovery', 'desc' => 'Recover your deleted Videos from devices.'],
+                        ];
+                    @endphp
 
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="gradient-strip"
-                                    style="height: 10px; background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, #005fe3 80%); border-radius: 10px 10px 0 0; margin-bottom: -1px;">
-                                </div>
-
-                                <div class="blog-entry"
-                                    style=" border: 1px solid #ddd; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); background-color: #white; margin-bottom: 20px;">
-                                    <div class="text border border-top-0 p-4 d-flex flex-column align-items-center">
-                                        <i class='bx bx-laptop'
-                                            style="font-size: 80px; margin-bottom: 10px; color:black;"></i>
-                                        <!-- Increased size -->
-                                        <h3 class="heading text-center"><a href="/video">Laptop</a></h3>
-                                        <p class="text-center">Recover all types of files deleted form your laptop. </p>
-                                        <div class="d-flex align-items-center mt-4">
-                                            <p class="mb-0">
-                                                <a href="/video" class="btn btn-primary">
-                                                    Watch tutorial <span class="ion-ios-arrow-round-forward"></span>
-                                                </a>
-                                            </p>
-                                        </div>
-
-                                    </div>
+                    @foreach ($services as $service)
+                    <div class="item">
+                        
+                        <div class="blog-entry recovery-card">
+                            <div class="gradient-strip-top"></div>
+                            <div class="text p-4 d-flex flex-column align-items-center">
+                                <i class="{{ $service['icon'] }} service-icon"></i>
+                                <h3 class="heading text-center mt-3">
+                                    <a href="/video" class="service-title">{{ $service['title'] }}</a>
+                                </h3>
+                                <p class="text-center text-muted">{{ $service['desc'] }}</p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <p class="mb-0">
+                                        <a href="/video" class="btn btn-primary watch-btn">Watch tutorial 
+                                            <span class="ion-ios-arrow-round-forward"></span>
+                                        </a>
+                                    </p>
                                 </div>
                             </div>
-                            <div class="item">
-                                <div class="gradient-strip"
-                                    style="height: 10px; background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, #005fe3 80%); border-radius: 10px 10px 0 0; margin-bottom: -1px;">
-                                </div>
-
-                                <div class="blog-entry"
-                                    style=" border: 1px solid #ddd; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); background-color: #white; margin-bottom: 20px;">
-                                    <div class="text border border-top-0 p-4 d-flex flex-column align-items-center">
-                                        <i class='bx bx-hdd'
-                                            style="font-size: 80px; margin-bottom: 10px; color:black;"></i>
-                                        <!-- Increased size -->
-                                        <h3 class="heading text-center"><a href="/video">Hard Drive</a></h3>
-                                        <p class="text-center">Recovering your data from the Hard Drive is easy with
-                                            Data Doctor. </p>
-                                        <div class="d-flex align-items-center mt-4">
-                                            <p class="mb-0">
-                                                <a href="/video" class="btn btn-primary">
-                                                    Watch tutorial <span class="ion-ios-arrow-round-forward"></span>
-                                                </a>
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="gradient-strip"
-                                    style="height: 10px; background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, #005fe3 80%); border-radius: 10px 10px 0 0; margin-bottom: -1px;">
-                                </div>
-
-                                <div class="blog-entry"
-                                    style=" border: 1px solid #ddd; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); background-color: #white; margin-bottom: 20px;">
-                                    <div class="text border border-top-0 p-4 d-flex flex-column align-items-center">
-                                        <i class='bx bx-memory-card'
-                                            style="font-size: 80px; margin-bottom: 10px; color:black;"></i>
-                                        <!-- Increased size -->
-                                        <h3 class="heading text-center"><a href="/video">Memory Card</a></h3>
-                                        <p class="text-center">Photographers can now recover all your deleted photos and
-                                            videos from your corupted Memory Card.</p>
-                                        <div class="d-flex align-items-center mt-4">
-                                            <p class="mb-0">
-                                                <a href="/video" class="btn btn-primary">
-                                                    Watch tutorial <span class="ion-ios-arrow-round-forward"></span>
-                                                </a>
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="gradient-strip"
-                                    style="height: 10px; background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, #005fe3 80%); border-radius: 10px 10px 0 0; margin-bottom: -1px;">
-                                </div>
-
-                                <div class="blog-entry"
-                                    style=" border: 1px solid #ddd; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); background-color: #white; margin-bottom: 20px;">
-                                    <div class="text border border-top-0 p-4 d-flex flex-column align-items-center">
-                                        <i class='bx bx-usb'
-                                            style="font-size: 80px; margin-bottom: 10px; color:black;"></i>
-                                        <!-- Increased size -->
-                                        <h3 class="heading text-center"><a href="/video">USB Data Recovery</a></h3>
-                                        <p class="text-center">Pen Drives Corupted! No worries, Data Doctor can recover
-                                            your data for you.</p>
-                                        <div class="d-flex align-items-center mt-4">
-                                            <p class="mb-0">
-                                                <a href="/video" class="btn btn-primary">
-                                                    Watch tutorial <span class="ion-ios-arrow-round-forward"></span>
-                                                </a>
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="gradient-strip"
-                                    style="height: 10px; background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, #005fe3 80%); border-radius: 10px 10px 0 0; margin-bottom: -1px;">
-                                </div>
-
-                                <div class="blog-entry"
-                                    style=" border: 1px solid #ddd; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); background-color: #white; margin-bottom: 20px;">
-                                    <div class="text border border-top-0 p-4 d-flex flex-column align-items-center">
-                                        <i class='bx bx-photo-album'
-                                            style="font-size: 80px; margin-bottom: 10px; color:black;"></i>
-                                        <!-- Increased size -->
-                                        <h3 class="heading text-center"><a href="/video">Photo Recovery</a></h3>
-                                        <p class="text-center">Recover all your memories captured in Photos using Data
-                                            Doctor easily.</p>
-                                        <div class="d-flex align-items-center mt-4">
-                                            <p class="mb-0">
-                                                <a href="/video" class="btn btn-primary">
-                                                    Watch tutorial <span class="ion-ios-arrow-round-forward"></span>
-                                                </a>
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="gradient-strip"
-                                    style="height: 10px; background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, #005fe3 80%); border-radius: 10px 10px 0 0; margin-bottom: -1px;">
-                                </div>
-
-                                <div class="blog-entry"
-                                    style=" border: 1px solid #ddd; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); background-color: #white; margin-bottom: 20px;">
-                                    <div class="text border border-top-0 p-4 d-flex flex-column align-items-center">
-                                        <i class='bx bxs-videos'
-                                            style="font-size: 80px; margin-bottom: 10px; color:black;"></i>
-                                        <!-- Increased size -->
-                                        <h3 class="heading text-center"><a href="/video">Video Recovery</a></h3>
-                                        <p class="text-center">Data Doctor can even recover your deleted Videos from
-                                            your devices.</p>
-                                        <div class="d-flex align-items-center mt-4">
-                                            <p class="mb-0">
-                                                <a href="/video" class="btn btn-primary">
-                                                    Watch tutorial <span class="ion-ios-arrow-round-forward"></span>
-                                                </a>
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-
-
                         </div>
+
                     </div>
+                    @endforeach
+                    {{-- END: Recovery Items --}}
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
     </div>
     <script src="<?php echo e(asset('js/jquery.min.js')); ?>"></script>
     <script src="<?php echo e(asset('js/popper.js')); ?>"></script>
     <script src="<?php echo e(asset('js/bootstrap.min.js')); ?>"></script>
     <script src="<?php echo e(asset('js/owl.carousel.min.js')); ?>"></script>
     <script src="<?php echo e(asset('js/demo.js')); ?>"></script>
-</body>
+</body> **/
 
 </html>
 <?php /**PATH C:\Users\USER\Desktop\Namaskar Patil\Projects\DataDoctorr-Final1\resources\views/demo.blade.php ENDPATH**/ ?>
